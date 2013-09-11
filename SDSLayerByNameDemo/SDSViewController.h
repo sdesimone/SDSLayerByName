@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SDSViewController : UIViewController
+@interface SDSViewController : UIViewController <UITextFieldDelegate>
 
 @end

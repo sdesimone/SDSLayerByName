@@ -18,7 +18,11 @@
 		49BCD4D017E0DBD300DBF30E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD4CF17E0DBD300DBF30E /* Default-568h@2x.png */; };
 		49BCD4D317E0DBD300DBF30E /* SDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD4D217E0DBD300DBF30E /* SDSViewController.m */; };
 		49BCD4D617E0DBD300DBF30E /* SDSViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD4D417E0DBD300DBF30E /* SDSViewController_iPhone.xib */; };
-		49BCD4D917E0DBD300DBF30E /* SDSViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD4D717E0DBD300DBF30E /* SDSViewController_iPad.xib */; };
+		49BCD4E117E0DC0C00DBF30E /* CALayer+SDSLayerByName.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BCD4E017E0DC0C00DBF30E /* CALayer+SDSLayerByName.m */; };
+		49BCD4E317E0DC2A00DBF30E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49BCD4E217E0DC2A00DBF30E /* QuartzCore.framework */; };
+		49BCD4E717E0DDEF00DBF30E /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD4E417E0DDEF00DBF30E /* img1.jpg */; };
+		49BCD4E817E0DDEF00DBF30E /* img2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD4E517E0DDEF00DBF30E /* img2.jpg */; };
+		49BCD4E917E0DDEF00DBF30E /* img3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49BCD4E617E0DDEF00DBF30E /* img3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +42,12 @@
 		49BCD4D117E0DBD300DBF30E /* SDSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDSViewController.h; sourceTree = "<group>"; };
 		49BCD4D217E0DBD300DBF30E /* SDSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDSViewController.m; sourceTree = "<group>"; };
 		49BCD4D517E0DBD300DBF30E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SDSViewController_iPhone.xib; sourceTree = "<group>"; };
-		49BCD4D817E0DBD300DBF30E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SDSViewController_iPad.xib; sourceTree = "<group>"; };
+		49BCD4DF17E0DC0C00DBF30E /* CALayer+SDSLayerByName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SDSLayerByName.h"; sourceTree = "<group>"; };
+		49BCD4E017E0DC0C00DBF30E /* CALayer+SDSLayerByName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SDSLayerByName.m"; sourceTree = "<group>"; };
+		49BCD4E217E0DC2A00DBF30E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		49BCD4E417E0DDEF00DBF30E /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		49BCD4E517E0DDEF00DBF30E /* img2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img2.jpg; sourceTree = "<group>"; };
+		49BCD4E617E0DDEF00DBF30E /* img3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BCD4E317E0DC2A00DBF30E /* QuartzCore.framework in Frameworks */,
 				49BCD4BA17E0DBD300DBF30E /* UIKit.framework in Frameworks */,
 				49BCD4BC17E0DBD300DBF30E /* Foundation.framework in Frameworks */,
 				49BCD4BE17E0DBD300DBF30E /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +68,9 @@
 		49BCD4AD17E0DBD300DBF30E = {
 			isa = PBXGroup;
 			children = (
+				49BCD4E217E0DC2A00DBF30E /* QuartzCore.framework */,
+				49BCD4DF17E0DC0C00DBF30E /* CALayer+SDSLayerByName.h */,
+				49BCD4E017E0DC0C00DBF30E /* CALayer+SDSLayerByName.m */,
 				49BCD4BF17E0DBD300DBF30E /* SDSLayerByNameDemo */,
 				49BCD4B817E0DBD300DBF30E /* Frameworks */,
 				49BCD4B717E0DBD300DBF30E /* Products */,
@@ -90,7 +103,6 @@
 				49BCD4D117E0DBD300DBF30E /* SDSViewController.h */,
 				49BCD4D217E0DBD300DBF30E /* SDSViewController.m */,
 				49BCD4D417E0DBD300DBF30E /* SDSViewController_iPhone.xib */,
-				49BCD4D717E0DBD300DBF30E /* SDSViewController_iPad.xib */,
 				49BCD4C017E0DBD300DBF30E /* Supporting Files */,
 			);
 			path = SDSLayerByNameDemo;
@@ -106,6 +118,9 @@
 				49BCD4CB17E0DBD300DBF30E /* Default.png */,
 				49BCD4CD17E0DBD300DBF30E /* Default@2x.png */,
 				49BCD4CF17E0DBD300DBF30E /* Default-568h@2x.png */,
+				49BCD4E417E0DDEF00DBF30E /* img1.jpg */,
+				49BCD4E517E0DDEF00DBF30E /* img2.jpg */,
+				49BCD4E617E0DDEF00DBF30E /* img3.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,7 +182,9 @@
 				49BCD4CE17E0DBD300DBF30E /* Default@2x.png in Resources */,
 				49BCD4D017E0DBD300DBF30E /* Default-568h@2x.png in Resources */,
 				49BCD4D617E0DBD300DBF30E /* SDSViewController_iPhone.xib in Resources */,
-				49BCD4D917E0DBD300DBF30E /* SDSViewController_iPad.xib in Resources */,
+				49BCD4E717E0DDEF00DBF30E /* img1.jpg in Resources */,
+				49BCD4E817E0DDEF00DBF30E /* img2.jpg in Resources */,
+				49BCD4E917E0DDEF00DBF30E /* img3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +198,7 @@
 				49BCD4C617E0DBD300DBF30E /* main.m in Sources */,
 				49BCD4CA17E0DBD300DBF30E /* SDSAppDelegate.m in Sources */,
 				49BCD4D317E0DBD300DBF30E /* SDSViewController.m in Sources */,
+				49BCD4E117E0DC0C00DBF30E /* CALayer+SDSLayerByName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,14 +219,6 @@
 				49BCD4D517E0DBD300DBF30E /* en */,
 			);
 			name = SDSViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		49BCD4D717E0DBD300DBF30E /* SDSViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49BCD4D817E0DBD300DBF30E /* en */,
-			);
-			name = SDSViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -277,6 +287,7 @@
 				GCC_PREFIX_HEADER = "SDSLayerByNameDemo/SDSLayerByNameDemo-Prefix.pch";
 				INFOPLIST_FILE = "SDSLayerByNameDemo/SDSLayerByNameDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -288,6 +299,7 @@
 				GCC_PREFIX_HEADER = "SDSLayerByNameDemo/SDSLayerByNameDemo-Prefix.pch";
 				INFOPLIST_FILE = "SDSLayerByNameDemo/SDSLayerByNameDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -311,6 +323,7 @@
 				49BCD4DE17E0DBD300DBF30E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
